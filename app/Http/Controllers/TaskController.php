@@ -33,6 +33,7 @@ class TaskController extends Controller
     {
         return view('tasks/create',[
             'folder_id' => $id
+            
         ]);
     }
 
